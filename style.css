@@ -1,27 +1,24 @@
+body {
+	background-image: url(backround.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+	background-size: cover;
+}
+li {
+	list-style: none;
+}
 h2 {
-	font-family: fantasy;
-	font-weight: bold;
-	font-size: 50px;
-	box-shadow: 4px 4px 5px 5px;
-	width: 340px;
-
+ color: red;
 }
 
-img {
-	width: 450px;
-	height: 400px;
-	margin: 5px;
-	transition: all 1s;
-	
+p {
+	color: yellowgreen;
+	text-align: center;
+	border: 5px solid rgba(150, 60, 5, 1.0);
+	cursor: pointer;
 }
 
-img:hover {
-	transform: scale(1.2);
-}
-.container {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-
+#div1 {
+	background: rgba(0, 0, 250, .25);
 }
